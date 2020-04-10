@@ -27,7 +27,7 @@ IJ
 \references{
   The Java documentation of the class IJ:
   \url{http://rsbweb.nih.gov/ij/developer/api/ij/IJ.html}
-  
+
   ImageJ macro language:
   \url{http://rsbweb.nih.gov/ij/developer/macro/macros.html}
 }
@@ -36,14 +36,14 @@ IJ
 
 \examples{
 \dontrun{
-## Load a JPEG image in ImageJ and show it
+# Load a JPEG image in ImageJ and show it
 logo <- system.file("images", "R.jpg", package = "RImageJ")
 image <- IJ$openImage(logo)
 image$show()
-## Manipulate this image in ImageJ
+# Manipulate this image in ImageJ
 IJ$run("8-bit")
 IJ$run("Invert")
-## ... and close it
+# ... and close it
 image$close()
 }
 }

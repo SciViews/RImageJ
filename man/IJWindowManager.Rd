@@ -27,9 +27,9 @@ IJWindowManager
 
 \examples{
 \dontrun{
-## Get the number of currently opened ImageJ windows
+# Get the number of currently opened ImageJ windows
 IJWindowManager$getImageCount()
-## Close all currently opened ImageJ windows 
+# Close all currently opened ImageJ windows
 IJWindowManager$closeAllWindows()
 }
 }

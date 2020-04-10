@@ -40,11 +40,11 @@ ImageJ
 
 \examples{
 \dontrun{
-## Normally the ImageJ toolbar and menus are visible, but you can hide them
-ImageJ$hide()
-ImageJ$isVisible()
-## Redisplay them again
+# Show the ImageJ toolbar and menus
 ImageJ$show()
+ImageJ$isVisible()
+# Hide them
+ImageJ$hide()
 ImageJ$isVisible()
 }
 }

@@ -27,10 +27,10 @@
 
 \examples{
 \dontrun{
-## Load an image in ImageJ
+# Load an image in ImageJ
 logo <- system.file("images", "R.jpg", package = "RImageJ")
 image <- IJ$openImage(logo)
-## Use this image in a R plot
+# Use this image in a R plot
 plot(c(100, 250), c(300, 450), type = "n", xlab = "", ylab = "")
 rasterImage(image, 100, 300, 150, 350, interpolate = FALSE)
 rasterImage(image, 100, 400, 150, 450)
