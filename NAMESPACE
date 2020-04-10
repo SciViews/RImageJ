@@ -1,0 +1,9 @@
+import("rJava")
+
+importFrom("grDevices", "as.raster")
+
+export(ImageJ,
+       IJ,
+       IJWindowManager) 
+
+S3method("as.raster", "jobjRef")
